@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .navbar a {
+        position: absolute;
+        left: -100px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 100px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+      }
+
+      .navbar a:hover {
+        left: 0;
+      }
+
+      #html {
+        top: 20px;
+        background-color: green;
+      }
+
+      #css {
+        top: 80px;
+        background-color: blue;
+      }
+
+      #js {
+        top: 140px;
+        background-color: red;
+      }
+
+      #bs {
+        top: 200px;
+        background-color: grey;
+      }
+      div {
+        width: 90%;
+        float: right;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#" id="html">HTML</a>
+      <a href="#" id="css">CSS</a>
+      <a href="#" id="js">JavaScript</a>
+      <a href="#" id="bs">Bootstrap</a>
+    </div>
+    <div class="content">
+      <h1>Hoverable Side Navgation Buttons</h1>
+      <p>Hover over the side navigation nuttons in order to open them</p>
+    </div>
+  </body>
+</html>
